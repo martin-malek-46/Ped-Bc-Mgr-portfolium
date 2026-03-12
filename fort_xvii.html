@@ -1,0 +1,146 @@
+<!--
+
+Požadavky:                              SPLNĚNO
+
+1, vytvořit single page                 ANO
+2, galerie, ztmavne pozadí (lightbox)   ANO
+3, pevně ukotvené navigační menu        ANO
+4, samo to sjede na tu odrážku          ANO
+5, změnu vidíme nahoře v url            ANO
+6, smooth scroll                        ANO
+7, scrollspy                            ANO
+8, bootstrap                            ANO
+
+-->
+
+<!doctype html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>Fort XVII</title>
+        <link rel="stylesheet" href="fort_xvii.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css">
+    
+    </head>
+
+    <body>
+
+        <!-- menu -->
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link" href="#fortxvii">Fort XVII</a></li>
+            <li class="nav-item"><a class="nav-link" href="#onas">O nás</a></li>
+            <li class="nav-item"><a class="nav-link" href="#muzeum">Muzeum</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ateliery">Ateliéry</a></li>
+            <li class="nav-item"><a class="nav-link" href="#restaurace">Restaurace</a></li>
+            <li class="nav-item"><a class="nav-link" href="#teambuildingy">Teambuildingy</a></li>
+            <li class="nav-item"><a class="nav-link" href="#prespani">Přespání</a></li>
+            <li class="nav-item"><a class="nav-link" href="#kontakty">Kontakty</a></li>
+            <li class="nav-item"><a class="nav-link" href="#galerie">Galerie</a></li>
+        </ul>
+
+        <!-- úvod -->
+
+        <div id="fortxvii"></div>
+        <h1 class="main-title">Fort XVII</h1>
+        <p class="podtitulek">Pevnost byla vystavena v polovině 19. století. Měla chránit Olomouc před blížící se pruskorakouskou válkou. Hlavním cílem bylo dostat město z dostřelu tehdy moderních děl se zadním nabíjením a drážkovanou hlavní.</p>
+
+        <!-- oddíly -->
+
+        <div class="oddil lichy" id="onas">
+            <h2>O nás</h2>
+            <p>V současnosti na pevnosti spolupracuje historický spolek Fortový věnec a teambuildingová agentura GM5. Pracujeme na záchraně památky a na její historické stránce. Také se soutředíme na pořádání nejrůznějších akcí - únikové hry, dětské dny, státní svátky atd.</p>
+        </div>
+
+        <div class="oddil sudy" id="muzeum">
+            <h2>Muzeum</h2>
+            <p>Prohlídka, která začíná každý víkend v každou celou hodinu od 10 do 15 hodin, začíná právě v muzeu, kde na vás čeká sbírka originálních dobových předmětů. Dočasně můžete zhlédnout také výstavu druhoválečného zdravotnictví.</p>
+        </div>
+
+        <div class="oddil lichy" id="ateliery">
+            <h2>Ateliéry</h2>
+            <p>Na pevnosti také najdete MINCOVNU, TKALCOVNU, TISKÁRNU, KOVÁRNU a STŘELNICI. Ve všech těchto případech nabízíme programy pro školy, kde si žáci vyzkouší tehdejší řemesla a odnesou si malý dárek. Na střelnici je možnost absolvovat kurz první pomoci a střelecký kurz.</p>
+        </div>
+
+        <div class="oddil sudy" id="restaurace">
+            <h2>Restaurace</h2>
+            <p>Restaurace je otevřena pouze ve vybrané dny nebo po předchozí telefonické domluvě. Poradíme si s narozeninovou oslavou, smuteční hostinou, svatbou či dokonce zlatou svatbou.</p>
+        </div>
+
+        <div class="oddil lichy" id="teambuildingy">
+            <h2>Teambuildingy</h2>
+            <p>Nabízíme hry pro všechny věkové kategorie a všech obtížností. Pokusíte se vyřešit záhadu ukradené pevnostní pokladny, nebo se budete snažit dostat se z nekonečných tajemných chodeb?</p>
+        </div>
+
+        <div class="oddil sudy" id="prespani">
+            <h2>Přespání</h2>
+            <p>Originálnější přespání byste hledali marně! Můžete využít moderně zařízený pokoj pro dvě osoby, nebo zažít dobrodružství jako tehdejší vojáci. Tato možnost není vhodná pro všechny, pro bližší informace nás kontaktujte.</p>
+        </div>
+
+        <div class="oddil lichy" id="kontakty">
+            <h2>Kontakty</h2>
+            <p>Zaujala Vás naše nabídka? Neváhejte nás kontaktovat!<br><br>Martin Málek<br>mail: martin.malek46@seznam.cz</p>
+        </div>
+
+        <div class="oddil sudy" id="galerie">
+            <h2>Galerie</h2>
+            <div class="galerie-container">
+
+                <a href="https://www.fortkrelov.cz/wp-content/uploads/2022/03/248227674_4448864501887796_291375983602030576_n.jpg"
+                   data-lightbox="galerie" data-title="Pevnost zvenku">
+                    <img src="https://www.fortkrelov.cz/wp-content/uploads/2022/03/248227674_4448864501887796_291375983602030576_n.jpg" alt="halo1">
+                </a>
+
+                <a href="https://www.fortkrelov.cz/wp-content/uploads/2025/05/P1450563.jpeg"
+                   data-lightbox="galerie" data-title="Kinematograf">
+                    <img src="https://www.fortkrelov.cz/wp-content/uploads/2025/05/P1450563.jpeg" alt="halo2">
+                </a>
+
+                <a href="https://www.fortkrelov.cz/wp-content/uploads/2021/05/Fort-XVII_Skoly059.jpg"
+                   data-lightbox="galerie" data-title="Návštěvníci v muzeu">
+                    <img src="https://www.fortkrelov.cz/wp-content/uploads/2021/05/Fort-XVII_Skoly059.jpg" alt="halo3">
+                </a>
+
+            </div>
+        </div>
+
+        <!-- galerie -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox-plus-jquery.min.js"></script>
+
+
+        <!-- scrollspy -->
+
+        <script>
+        const sections = document.querySelectorAll("div[id], h1[id]");
+        const menuLinks = document.querySelectorAll(".nav-link");
+
+        const observer = new IntersectionObserver(
+            entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.getAttribute("id");
+
+                        history.replaceState(null, null, "#" + id);
+
+                        menuLinks.forEach(link => {
+                            link.classList.toggle(
+                                "active",
+                                link.getAttribute("href") === "#" + id
+                            );
+                        });
+                    }
+                });
+            },
+            {
+                threshold: 0.4
+            }
+        );
+        sections.forEach(section => observer.observe(section));
+        </script>
+
+    </body>
+
+</html>
