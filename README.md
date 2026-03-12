@@ -1,5 +1,5 @@
 Pedagogické portfolio <br>
-Bakalářské studium
-Martin Málek (D25362)
-Katedra společenských věd
-Pedagogická fakulta, UPOL
+Bakalářské studium <br>
+Martin Málek (D25362) <br>
+Katedra společenských věd <br>
+Pedagogická fakulta, UPOL 
